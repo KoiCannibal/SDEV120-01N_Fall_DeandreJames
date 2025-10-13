@@ -1,0 +1,11 @@
+#this program prints a list of 15 numbers and prints if said numbers are even or odd
+
+number = 0
+
+while (number < 15):
+    number = number + 1 
+    if (number%2==0):
+        print(number, " is even")
+    else:
+        print(number, " is odd")
+    
